@@ -51,18 +51,11 @@ nav{
     margin: 10px;
 }
 #category-1{
-    margin: 1rem;
-    gap: 1rem;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-inline: 6.5vw;
-    :hover{
-        scale: 1.1;
-        box-shadow: 5px 10px 10px 10px #ddd;
-    }
 }
-
 .category{
     width: 85vw;
     margin: auto;
@@ -99,7 +92,7 @@ nav{
 footer{
     width: 85vw;
     margin: auto;
-    background-color: rgb(168, 169, 102);
+    background-color: beige;
     border-radius: 15px;
     margin-top:15px;
     padding: 5px;
@@ -171,7 +164,7 @@ td:hover{
     border: none;
 }
 .some-box:hover{
-    background-color: yellow    ;
+    background-color: #f8cb45;
     color: black;
     border: none;
 }
